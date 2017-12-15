@@ -13,7 +13,7 @@ script, filename = argv
 
 txt = open(filename)
 
-print "Here's your file %r:" % filename
+print "串口下载程序软件stc.txt %r:" % filename
 print txt.read()
 # txt.close()#处理完文件后将他关闭
 # print txt.read()#测试是否关闭了
